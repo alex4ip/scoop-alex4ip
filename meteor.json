@@ -6,20 +6,24 @@
     "architecture": {
         "64bit": {
             "url": "https://static-meteor.netdna-ssl.com/packages-bootstrap/1.7.0.5/meteor-bootstrap-os.windows.x86_64.tar.gz",
-            "hash": "60d698ef2a4f48c7463faa17d432d936c845ef743ebd5dc06e344f0ab952a4e1"
+            "hash": "60d698ef2a4f48c7463faa17d432d936c845ef743ebd5dc06e344f0ab952a4e1",
+            "extract_dir": "1.7.0.5-win-x64"
         },
         "32bit": {
             "url": "https://packages.meteor.com/bootstrap-link?arch=os.windows.x86_32",
             "extract_dir": "1.7.0.5-win-x86"
         }
     },
+    "env_add_path": [
+        "."
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://static-meteor.netdna-ssl.com/packages-bootstrap/$version/meteor-bootstrapos.windows.x86_64.tar.gz",
+                "url": "https://static-meteor.netdna-ssl.com/packages-bootstrap/v$version/meteor-bootstrapos.windows.x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://static-meteor.netdna-ssl.com/packages-bootstrap/$version/meteor-bootstrapos.windows.x86_32.tar.gz",
+                "url": "https://static-meteor.netdna-ssl.com/packages-bootstrap/v$version/meteor-bootstrapos.windows.x86_32.tar.gz"
             }
         }
     }
