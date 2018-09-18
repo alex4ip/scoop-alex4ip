@@ -12,7 +12,7 @@
             "url": "https://packages.meteor.com/bootstrap-link?arch=os.windows.x86_32"
     },
     "env_add_path": [
-        "."
+        ".meteor"
     ],
     "autoupdate": {
         "architecture": {
